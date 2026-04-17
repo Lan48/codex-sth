@@ -36,7 +36,7 @@
 本仓库提供脚本快速部署：
 
 ```bash
-./scripts/deploy-skills.sh
+bash ./scripts/deploy-skills.sh
 ```
 
 - 部署目标默认是 `$CODEX_HOME/skills`，`CODEX_HOME` 默认值 `~/.codex`。
