@@ -7,7 +7,7 @@
 克隆后可直接运行：
 
 ```bash
-./scripts/deploy-skills.sh
+bash ./scripts/deploy-skills.sh
 ```
 
 默认行为：
@@ -18,9 +18,9 @@
 可选参数：
 
 ```bash
-./scripts/deploy-skills.sh --copy
-./scripts/deploy-skills.sh --link
-./scripts/deploy-skills.sh --help
+bash ./scripts/deploy-skills.sh --copy
+bash ./scripts/deploy-skills.sh --link
+bash ./scripts/deploy-skills.sh --help
 ```
 
 - `--copy`：复制到目标目录（默认）
@@ -30,5 +30,5 @@
 示例：
 
 ```bash
-CODEX_HOME=/path/to/.codex ./scripts/deploy-skills.sh --link
+CODEX_HOME=/path/to/.codex bash ./scripts/deploy-skills.sh --link
 ```
