@@ -30,3 +30,16 @@
 - 变更默认先记录到 `SKILL.md` 再同步 `agents/openai.yaml`。
 - 每个 skill 以最小必要上下文原则设计，避免把无关文档混进目录。
 - 添加新技能时，优先更新本 `skills/README.md`，保持仓库可读性。
+
+## 一键部署
+
+本仓库提供脚本快速部署：
+
+```bash
+./scripts/deploy-skills.sh
+```
+
+- 部署目标默认是 `$CODEX_HOME/skills`，`CODEX_HOME` 默认值 `~/.codex`。
+- `--copy`：复制所有 skill 到目标目录（默认）。
+- `--link`：创建/更新软链接，便于本地持续同步。
+- `--help`：查看完整帮助。
