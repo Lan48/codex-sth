@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Agent Orchestrator"
+  short_description: "让强模型规划、让轻模型并行执行的多 agent 编排技能"
+  default_prompt: "使用 $multi-agent-orchestrator 把当前任务拆成由强模型负责规划、轻模型并行执行的子任务。"

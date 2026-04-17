@@ -1,0 +1,4 @@
+interface:
+  display_name: "持续推进项目"
+  short_description: "自动持续推进当前项目任务，直到必须人工决策或提供外部信息"
+  default_prompt: "使用 $autonomous-project-driver 持续推进当前项目；若检测到 .planning/ROADMAP.md 则优先走 $gsd-autonomous，否则按通用自治流程继续，直到真正需要我介入。"
